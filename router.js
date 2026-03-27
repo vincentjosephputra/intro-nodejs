@@ -13,6 +13,7 @@ function readHTMLFile(fileName) {
 const routes = {
   '/': './views/index.html',
   '/about': './views/about.html',
+  'info': './views/info.html',
 };
 
 function handle(request, response) {
